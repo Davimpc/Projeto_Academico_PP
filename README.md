@@ -79,8 +79,4 @@ mpirun -np 4 ./build/mpi_mergesort 20000000 gather   # MPI, Gatherv + merge no r
 | `openmp_cutoff.csv` | sensibilidade ao cutoff |
 | `resumo.csv` | mediana, speedup, eficiencia e Karp-Flatt (gerado por `graficos.py`) |
 
-## Historico de commits
-
-A avaliacao considera o historico: commits pequenos, frequentes e de **todos** os
-integrantes (cada um commita na sua frente).
 
